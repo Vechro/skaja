@@ -1,0 +1,15 @@
+{
+  "files": [
+    "src/index.ts"
+  ],
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES6",
+    "outDir": "dist"
+  }
+}

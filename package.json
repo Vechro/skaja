@@ -1,0 +1,20 @@
+{
+  "name": "skaja",
+  "version": "1.0.0",
+  "description": "SVG path builder",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx tsc --target \"ES6\" .\\src\\index.spec.ts --outDir \"dist\" && node ./dist/index.spec.js"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "vechro",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.0.1"
+  }
+}
